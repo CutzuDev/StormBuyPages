@@ -1,0 +1,14 @@
+.notfound {
+  width: 100vw;
+  height: calc(100vh - 160px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notfound__title {
+  color: #7dbad2;
+  text-align: center;
+  font-size: 80px;
+  text-shadow: 0px 0px 10px rgba(125, 186, 210, 0.5);
+}

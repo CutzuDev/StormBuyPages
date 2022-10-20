@@ -89,7 +89,6 @@ body {
     align-items: center !important;
   }
   .home__title {
-    text-align: center !important;
     font-size: 40px !important;
   }
 
@@ -136,6 +135,10 @@ body {
   .f_displayFlex {
     font-size: 12px !important;
     text-align: center !important;
-    width: 100px;
+    width: 100px !important;
+  }
+
+  .notfound__title {
+    font-size: 60px !important;
   }
 }

@@ -5,6 +5,7 @@ import "./App.css";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
+import NotFoundPage from "./pages/NotFoundPage";
 import Products from "./pages/Products";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/products" element={<Products />} />
+            <Route path="/*" element={<NotFoundPage />} />
           </Routes>
           <Footer />
         </Router>

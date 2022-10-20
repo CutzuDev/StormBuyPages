@@ -5,11 +5,11 @@ function Footer() {
     <div className="footer">
       <div className="footer__container">
         <h3 className="footer__credits credits__cutzu">
-          Made with<span class="footer__credits--emoji"> ❤️ </span>by
+          Made with<span className="footer__credits--emoji"> ❤️ </span>by
           <a
             href="https://alexfarkas.me/"
             target="_blank"
-            class="footer__credits--cutzu"
+            className="footer__credits--cutzu"
           >
             CutzuSD#4226
           </a>
