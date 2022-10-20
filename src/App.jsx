@@ -2,6 +2,7 @@ import { createTheme, ThemeProvider } from "@mui/material";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import "./App.css";
+import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
@@ -27,6 +28,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/products" element={<Products />} />
           </Routes>
+          <Footer />
         </Router>
       </div>
     </ThemeProvider>
