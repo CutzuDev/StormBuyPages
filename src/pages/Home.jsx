@@ -15,7 +15,7 @@ function Home() {
   return (
     <div className="home">
       <div className="hrow">
-        <header className="home__header">
+        <header className="home__header headerStyle">
           <div className="home__half h__half--left">{text}</div>
           <div className="home__half h__half--right">{video}</div>
         </header>

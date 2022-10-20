@@ -16,7 +16,6 @@
   align-items: center;
 }
 .home__header {
-  animation: onLoadAnimation 1.5s 0s backwards;
   transition: 500ms ease all;
   display: flex;
   justify-content: center;
@@ -42,17 +41,13 @@
 .h__half--left {
   flex-direction: column;
 }
-.home__video {
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-  animation: fadeIn 0.8s ease-in backwards;
-}
 
 .home__title {
   color: #7dbad2;
   font-size: 50px;
   font-weight: 900;
   animation: htAnimatedGlow 3s ease-in-out infinite;
+  text-shadow: 0px 0px 5px rgba(125, 186, 210, 0.25);
 }
 
 .title__animation {
@@ -70,6 +65,14 @@
   line-height: 25px;
   animation: fadeIn 0.85s ease-in backwards;
 }
+
+.home__video {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  animation: fadeIn 0.8s ease-in backwards;
+}
+
+
 
 @keyframes htAnimatedGlow {
   0% {
@@ -92,35 +95,8 @@
   }
 }
 
-@keyframes onLoadAnimation {
+@keyframes fadeInVideo {
   0% {
-    width: 0px;
     height: 0px;
-    border-radius: 9999px;
-    opacity: 0;
-    box-shadow: 0px 0px 0px #000;
-  }
-  5% {
-    width: 0px;
-    height: 0px;
-    border-radius: 9999px;
-    opacity: 0;
-  }
-
-  20% {
-    width: 50px;
-    height: 50px;
-    border-radius: 9999px;
-    opacity: 1;
-  }
-
-  30% {
-    width: 50px;
-    height: 50px;
-    border-radius: 100px;
-    opacity: 1;
-  }
-  70% {
-    box-shadow: 0px 0px 0px #000;
   }
 }
