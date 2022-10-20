@@ -1,4 +1,5 @@
-import React from "react";
+import { Button } from "@mui/material";
+import { Link } from "react-router-dom";
 
 function Text() {
   return (
@@ -11,6 +12,18 @@ function Text() {
         that can bypass Fivem's anti-cheat. Storm Spoofer also has a
         user-friendly interface that makes it easy to use.
       </p>
+      <div className="home__button--container">
+        <Link to={"/products"}>
+          <Button variant="outlined" color="secondary" className="home__button">
+            <h3 className="home__button--text">Products</h3>
+          </Button>
+        </Link>
+        <a href="https://discord.com" target="_blank">
+          <Button variant="outlined" color="secondary" className="home__button">
+            <h3 className="home__button--text">Discord</h3>
+          </Button>
+        </a>
+      </div>
     </>
   );
 }

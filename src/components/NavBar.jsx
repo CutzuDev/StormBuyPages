@@ -37,6 +37,17 @@ function Nav() {
                 </Button>
               </a>
             </li>
+            <li className="nav__item nav__mobile--item">
+              <Link to={"/"}>
+                <Button
+                  color="secondary"
+                  variant="outlined"
+                  className="nav__button"
+                >
+                  <h3 className="nav__button--text">Back</h3>
+                </Button>
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
