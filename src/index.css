@@ -120,4 +120,22 @@ body {
   .products {
     height: fit-content !important;
   }
+
+  .footer__credits--item {
+    font-size: 10px !important;
+  }
+
+  .footer__credits--list {
+    margin-left: 20px !important;
+  }
+
+  .credits__cutzu {
+    display: none !important;
+  }
+
+  .f_displayFlex {
+    font-size: 12px !important;
+    text-align: center !important;
+    width: 100px;
+  }
 }

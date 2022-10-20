@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className="footer">
       <div className="footer__container">
-        <h3 className="footer__credits">
+        <h3 className="footer__credits credits__cutzu">
           Made with<span class="footer__credits--emoji"> ❤️ </span>by
           <a
             href="https://alexfarkas.me/"
