@@ -1,4 +1,4 @@
-import { createTheme, ThemeProvider } from "@mui/system";
+import { createTheme, ThemeProvider } from "@mui/material";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import "./App.css";
@@ -9,7 +9,7 @@ function App() {
   const theme = createTheme({
     palette: {
       primary: {
-        main: "#243b53",
+        main: "#395b80",
       },
       secondary: {
         main: "#7dbad2",
@@ -25,7 +25,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
           </Routes>
-
         </Router>
       </div>
     </ThemeProvider>
